@@ -1,0 +1,28 @@
+h3 {
+    font-size: 26px !important;
+    font-family: 'Georgia, 'Times New Roman', Times, serif';
+}
+button {
+    font-size: 24px !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.btn-danger:hover {
+    background-color: rgb(212, 0, 255);
+}
+canvas {
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {
+        box-shadow: 1px 3px 35px rgb(252, 10, 10);
+    }
+    to {
+        box-shadow: 1px 3px 35px rgba(10, 252, 232, 0.833);
+    }
+}
+body {
+    background-image: URL("Monkey D Luffy.png");
+    background-size: cover;
+}
